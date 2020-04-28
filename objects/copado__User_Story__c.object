@@ -4746,6 +4746,37 @@
         <label>Work Manager Relations</label>
     </fieldSets>
     <fields>
+        <fullName>Enable_Logs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Enable Logs</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>JIRA_key__c</fullName>
+        <externalId>false</externalId>
+        <label>JIRA key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -7811,7 +7842,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <masterLabel>Validate Changes</masterLabel>
         <openType>sidebar</openType>
         <protected>false</protected>
-        <url>/apex/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}UserStoryPageWaitingFor?id={!copado__User_Story__c.Id}&amp;type=validation</url>
+        <url>/apex/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}UserStoryPageWaitingFor?id={!copado__User_Story__c.Id}&amp;type=co_validation</url>
     </webLinks>
     <webLinks>
         <fullName>copado__Pull_Request</fullName>
@@ -7830,7 +7861,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>/apex/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}UserStoryPageWaitingFor?id={!copado__User_Story__c.Id}&amp;type=pullRequest</url>
+        <url>/apex/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}UserStoryPageWaitingFor?id={!copado__User_Story__c.Id}&amp;type=co_pullRequest</url>
     </webLinks>
     <webLinks>
         <fullName>copado__Ready_for_Promotion</fullName>

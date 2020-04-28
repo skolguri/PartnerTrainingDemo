@@ -78,16 +78,8 @@
                 <field>AdjustmentAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalAmount</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>TaxAmount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalAmountWithTax</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
