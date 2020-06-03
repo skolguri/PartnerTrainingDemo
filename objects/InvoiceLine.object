@@ -76,12 +76,6 @@
         <fullName>TaxRate</fullName>
     </fields>
     <fields>
-        <fullName>TotalAmount</fullName>
-    </fields>
-    <fields>
-        <fullName>TotalAmountWithTax</fullName>
-    </fields>
-    <fields>
         <fullName>Type</fullName>
     </fields>
     <fields>
@@ -90,7 +84,6 @@
     <searchLayouts>
         <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>RelatedLine</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>TotalAmount</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
