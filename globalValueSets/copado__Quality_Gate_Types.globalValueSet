@@ -46,16 +46,21 @@
         <label>URL Callout</label>
     </customValue>
     <customValue>
-        <fullName>Compliance</fullName>
+        <fullName>External CI</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>Compliance</label>
+        <label>External CI</label>
     </customValue>
     <customValue>
         <fullName>Static Analysis</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Static Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Compliance</label>
     </customValue>
     <masterLabel>Quality Gate Types</masterLabel>
     <sorted>false</sorted>
