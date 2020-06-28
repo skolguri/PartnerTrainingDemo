@@ -298,11 +298,6 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>copado__Destination_Environment__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
             <field>copado__Destination_Org_Credential__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -334,11 +329,6 @@
         </availableFields>
         <availableFields>
             <field>Name</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>OwnerId</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </availableFields>
@@ -378,6 +368,21 @@
             <isRequired>false</isRequired>
         </availableFields>
         <description>FieldSet to include fields not included by default in the Promotion layout.</description>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CHG__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Destination_Environment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
         <label>Custom Fields</label>
     </fieldSets>
     <fieldSets>
@@ -610,6 +615,17 @@
         </displayedFields>
         <label>Pipeline Manager</label>
     </fieldSets>
+    <fields>
+        <fullName>CHG__c</fullName>
+        <description>CHG Order Number</description>
+        <externalId>false</externalId>
+        <label>CHG</label>
+        <length>8</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>copado__Back_Promotion__c</fullName>
         <defaultValue>false</defaultValue>

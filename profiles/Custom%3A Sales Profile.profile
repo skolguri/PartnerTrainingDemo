@@ -6285,6 +6285,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Promotion__c.CHG__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>copado__Promotion__c.copado__Back_Promotion__c</field>
         <readable>false</readable>
