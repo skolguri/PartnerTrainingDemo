@@ -120,6 +120,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AuditEmail</fullName>
+    </fields>
+    <fields>
         <fullName>Comments</fullName>
     </fields>
     <fields>
@@ -135,11 +138,26 @@
         <fullName>GatewayToken</fullName>
     </fields>
     <fields>
+        <fullName>GatewayTokenDetails</fullName>
+    </fields>
+    <fields>
+        <fullName>IpAddress</fullName>
+    </fields>
+    <fields>
+        <fullName>MacAddress</fullName>
+    </fields>
+    <fields>
         <fullName>NickName</fullName>
     </fields>
     <fields>
         <fullName>PaymentGatewayId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ProcessingMode</fullName>
     </fields>
     <fields>
         <fullName>Status</fullName>

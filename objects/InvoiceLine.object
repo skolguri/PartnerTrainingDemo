@@ -21,7 +21,19 @@
         <fullName>AdjustmentAmount</fullName>
     </fields>
     <fields>
+        <fullName>AdjustmentAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>AdjustmentTaxAmount</fullName>
+    </fields>
+    <fields>
         <fullName>ChargeAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>ChargeAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>ChargeTaxAmount</fullName>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -38,6 +50,9 @@
     </fields>
     <fields>
         <fullName>InvoiceStatus</fullName>
+    </fields>
+    <fields>
+        <fullName>LineAmount</fullName>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -84,6 +99,7 @@
     <searchLayouts>
         <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>RelatedLine</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LineAmount</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

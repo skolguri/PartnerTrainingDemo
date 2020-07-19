@@ -80,6 +80,12 @@
         <fullName>TotalAdjustmentAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalAdjustmentAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentTaxAmount</fullName>
+    </fields>
+    <fields>
         <fullName>TotalAmount</fullName>
     </fields>
     <fields>
@@ -87,6 +93,12 @@
     </fields>
     <fields>
         <fullName>TotalChargeAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalChargeAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalChargeTaxAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalTaxAmount</fullName>
